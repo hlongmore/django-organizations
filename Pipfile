@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+tox = "*"
+twine = "*"
+Sphinx = "*"
+coverage = "*"
+mock = ">=1.0.1"
+pytest-django = ">=3.0.0"
+pytest-cov = ">=2.4.0"
+flake8 = ">=2.4.1"
+typing = ">=3.6.4"
+django-extensions = ">=1.6.0"
+django-autoslugged = ">=2.0.0.dev0"
+mock-django = "==0.6.9"
+
+[requires]
+python_version = "3.7"

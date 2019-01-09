@@ -60,3 +60,36 @@ class OrganizationInvitation(AbstractOrganizationInvitation):
 
     class Meta(AbstractOrganizationInvitation.Meta):
         abstract = False
+
+
+class Application(AbstractOrganization):
+    """
+    Default Application model.
+    """
+
+    class Meta(AbstractOrganization.Meta):
+        abstract = False
+
+
+class ApplicationUser(AbstractOrganizationUser):
+    """
+    Default ApplicationUser model.
+    """
+
+    class Meta(AbstractOrganizationUser.Meta):
+        abstract = False
+
+
+class ApplicationOwner(AbstractOrganizationOwner):
+    """
+    Default ApplicationOwner model.
+    """
+
+    class Meta(AbstractOrganizationOwner.Meta):
+        abstract = False
+
+
+class ApplicationInvitation(AbstractOrganizationInvitation):
+
+    class Meta(AbstractOrganizationInvitation.Meta):
+        abstract = False
